@@ -94,7 +94,7 @@ header .wrap .menu .nav-opn button img{
 header .wrap nav{
     position: fixed;
     top: 0;
-    left: 100%;
+    left: -100%;
     width: 50%;
     height: 100%;
     background-color: #1e1e1e;
@@ -365,4 +365,10 @@ header .wrap nav .inner .link li a{
     border-radius:42px;
 	background:rgba(255, 255, 255, 0.3);
     
+}
+
+.content .page .section .website .swiper-wrapper .swiper-slide .btn ul li p{
+    font-size: 14px;
+    color: white;
+    padding-bottom: 30px;
 }

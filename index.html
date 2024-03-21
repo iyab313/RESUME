@@ -7,6 +7,9 @@
 	<link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> 
 
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="script/main.js"></script>
+
 </head>
 <body>
     <div class="wrapper">
@@ -23,8 +26,8 @@
                             <button type="button"><img src="images/close.svg" alt="nav닫기"></button>
                         </div>
                         <ul class="link">
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">About Me</a></li>
+                            <li><a href="https://iyab313.github.io/RESUME/">HOME</a></li>
+                            <li><a href="https://iyab313.github.io/Aboutme/">About Me</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -69,6 +72,7 @@
                                     <div class="btn">
                                         <ul>
                                             <!-- <li><a href="#" target="_blank">Web Guide</a></li> -->
+                                            <li><p>모바일, 태블릿, PC에서의 사용성을 위해 반응형으로 구현하였습니다.</p></li>
                                             <li><a href="https://iyab313.github.io/COOPANG/" target="_blank">Web Site</a></li>
                                         </ul>
                                     </div>
@@ -84,6 +88,7 @@
                                     <div class="btn">
                                         <ul>
                                             <!-- <li><a href="#" target="_blank">Web Guide</a></li> -->
+                                            <li><p>모바일, 태블릿, PC에서의 사용성을 위해 반응형으로 구현하였습니다.</p></li>
                                             <li><a href="https://iyab313.github.io/SEALIFEBUSAN/" target="_blank">Web Site</a></li>
                                         </ul>
                                     </div>
@@ -99,6 +104,7 @@
                                     <div class="btn">
                                         <ul>
                                             <!-- <li><a href="#" target="_blank">Web Guide</a></li> -->
+                                            <li><p>모바일, 태블릿, PC에서의 사용성을 위해 반응형으로 구현하였습니다.</p></li>
                                             <li><a href="https://iyab313.github.io/REDCONNECT/" target="_blank">Web Site</a></li>
                                         </ul>
                                     </div>
@@ -115,27 +121,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <script>
-        const opn = document.querySelector(".nav-opn");
-        const cls = document.querySelector(".nav-cls");
-        const nav = document.querySelector("nav");
-        opn.addEventListener("click", function() {
-            nav.style.left = 0;
-        });
-
-        cls.addEventListener("click", function() {
-            nav.style.left = "100%";
-        });
-
-
-        var swiper = new Swiper(".website", {
-            slidesPerView : 'auto',
-            scrollbar: {
-                el: ".swiper-scrollbar",
-                hide: true,
-            },
-        });
-    </script>
 
 </body>
 </html>
