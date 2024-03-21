@@ -1,10 +1,4 @@
-var swiper = new Swiper(".website", {
-    slidesPerView : 'auto',
-    scrollbar: {
-        el: ".swiper-scrollbar",
-        hide: true,
-    },
-});
+
 
 $(document).ready(function(){
     $('.nav-opn button').click(function(){
