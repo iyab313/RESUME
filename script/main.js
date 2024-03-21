@@ -8,3 +8,4 @@ $(document).ready(function(){
         $('nav').animate({left: '-100%'}, 'slow'); 
     });
 });
+
